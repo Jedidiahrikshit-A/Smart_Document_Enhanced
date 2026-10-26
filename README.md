@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # SmartDocAI
 
 SmartDocAI is a full-stack AI document workspace. It combines a React/Vite interface with a Flask REST API, SQLite persistence, secure account sessions, real configurable AI generation, reference-file extraction, and DOCX/PDF exports.
@@ -76,5 +76,4 @@ Authentication endpoints are `/api/auth/register`, `/api/auth/login`, `/api/auth
 If a browser shows a CSRF error, refresh the page so the non-HTTP-only `csrf_token` cookie is issued. If cookies do not persist on local HTTP, set `COOKIE_SECURE=false`; do not use that setting for public HTTPS. If exports fail, reinstall `python-docx` and `reportlab` in the active virtual environment. If AI requests fail, inspect the provider URL, key, model identifier, timeout, and returned error; SmartDocAI intentionally reports provider failures rather than producing placeholder content.
 =======
 # Smart_Document_Enhanced
-Increases your productivity
->>>>>>> 317be675627d7cd8a7bcaf533875009512c30015
+
