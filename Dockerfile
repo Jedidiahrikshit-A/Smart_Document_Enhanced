@@ -1,10 +1,10 @@
 
-FROM node:20.18.0-slim AS frontend-build
+FROM node:22-slim AS frontend-build
 
 WORKDIR /app/frontend
 
 COPY frontend/package*.json ./
-RUN npm install
+RUN npm install --include=optional
 
 COPY frontend/ ./
 RUN npm run build
